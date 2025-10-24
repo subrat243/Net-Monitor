@@ -8,9 +8,9 @@ An Python-based Intrusion Detection System (IDS) for detecting network flood att
 
   - **Real-Time Detection**: Monitors network traffic live to identify potential DoS attacks as they happen.
   - **Highly Configurable**: Use command-line arguments to set packet thresholds, monitoring interfaces, and log file paths.
-  - **📝 Detailed Logging**: All alerts and system messages are logged to a file with timestamps for persistent record-keeping and later analysis.
-  - **✅ IP Whitelisting**: Prevents false positives by ignoring traffic from a user-defined list of trusted IP addresses.
-  - **🛡️ Automated Mitigation**: Includes an optional feature to automatically block an attacker's IP address using `iptables` on Linux systems.
+  - **Detailed Logging**: All alerts and system messages are logged to a file with timestamps for persistent record-keeping and later analysis.
+  - **IP Whitelisting**: Prevents false positives by ignoring traffic from a user-defined list of trusted IP addresses.
+  - **Automated Mitigation**: Includes an optional feature to automatically block an attacker's IP address using `iptables` on Linux systems.
 
 -----
 
